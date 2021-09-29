@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* HEADER */
 
 
@@ -16,6 +18,7 @@
 .navbar {
     background-color: #6B40ED;
     height: 10%;
+    z-index: 10;
 }
 
 #navbarNav {
@@ -41,32 +44,90 @@
 }
 
 .under-nav-section {
+    width: 100%;
+    display: inline-block;
     position: relative;
-    height: 10%;
 }
 
-.under-nav-image {
-    position: absolute;
+.under-nav-section img {
+    width: 100%;
+    padding: 0%;
+}
+
+.under-nav-title {
     z-index: 1;
+    position: absolute;
+    left: 8%;
+    top: 22%;
+    color: #6B40ED;
+    width: 100%;
 }
 
-.under-nav-title {
-    position:absolute;
-    top: 10%; 
-    left: 10%; 
-    width: 35%;
-    height: 60%; 
-    z-index:2;
-    font-size:3rem;
+.under-nav-title h1 {
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    font-weight: 900;
+    line-height: 1.8rem;
+}
+
+.underline-06 {
+    background-image: linear-gradient(90deg, #d9d7e0, #ebe6fd);
+    background-position: bottom;
+    background-size: 100% 45%;
+    background-repeat: no-repeat;
+  }
+
+@media screen and (min-width: 530px) {
+    .under-nav-title h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .under-nav-title {
+        left: 8%;
+        top: 16%;
+    }
 }
 
 @media screen and (min-width: 670px) {
     .brand-name h1 {
         font-size: 2rem;
     }
+
+    .under-nav-title h1 {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
+
+    #navbarNav ul li {
+        margin: 20px;
+    }
+
+    .under-nav-title h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .under-nav-title {
+        left: 8%;
+        top: 21%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .under-nav-title h1 {
+        font-size: 3.7rem;
+        line-height: 6rem;
+    }
+
+    .under-nav-title {
+        left: 8%;
+        top: 21%;
+    }
 
     #navbarNav ul li {
         margin: 20px;
