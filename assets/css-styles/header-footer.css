@@ -40,6 +40,26 @@
     text-decoration: none;
 }
 
+.under-nav-section {
+    position: relative;
+    height: 10%;
+}
+
+.under-nav-image {
+    position: absolute;
+    z-index: 1;
+}
+
+.under-nav-title {
+    position:absolute;
+    top: 10%; 
+    left: 10%; 
+    width: 35%;
+    height: 60%; 
+    z-index:2;
+    font-size:3rem;
+}
+
 @media screen and (min-width: 670px) {
     .brand-name h1 {
         font-size: 2rem;
