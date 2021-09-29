@@ -40,13 +40,13 @@
     text-decoration: none;
 }
 
-@media screen and (min-width: 670px){
+@media screen and (min-width: 670px) {
     .brand-name h1 {
         font-size: 2rem;
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
     #navbarNav ul li {
         margin: 20px;
@@ -56,50 +56,56 @@
 /* ANIMATION HEADER */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
 .navbar-nav li {
-  display: inline-block;
-  list-style: outside none none;
-  margin: 0.5em 1.5em;
-  padding: 0;
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.5em 1.5em;
+    padding: 0;
 }
+
 .navbar-nav li a {
-  padding: 0.5em 0;
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
-} 
+    padding: 0.5em 0;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
 
 .navbar-nav a:before,
 .navbar-nav a:after {
-  position: absolute;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
+
 .navbar-nav a:before {
-  bottom: 0;
-  display: block;
-  height: 3px;
-  width: 0%;
-  content: "";
-  background-color: #EDC258;
+    bottom: 0;
+    display: block;
+    height: 3px;
+    width: 0%;
+    content: "";
+    background-color: #EDC258;
 }
+
 .navbar-nav a:after {
-  left: 0;
-  top: 0;
-  padding: 0.5em 0;
-  position: absolute;
-  content: attr(data-hover);
-  color: #ffffff;
-  white-space: nowrap;
-  max-width: 0%;
-  overflow: hidden;
+    left: 0;
+    top: 0;
+    padding: 0.5em 0;
+    position: absolute;
+    content: attr(data-hover);
+    color: #ffffff;
+    white-space: nowrap;
+    max-width: 0%;
+    overflow: hidden;
 }
+
 .navbar-nav a:hover:before {
-  opacity: 1;
-  width: 100%;
+    opacity: 1;
+    width: 100%;
 }
+
 .navbar-nav a:hover:after {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 
@@ -107,4 +113,3 @@
 
 
 /* FOOTER */
-
