@@ -1,0 +1,29 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+a{
+    font-size: 0.75rem;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .tableOfContents {
+        max-width: 45%;
+    }   
+}
+
+@media only screen and (min-width: 992px) {
+    .tableOfContents {
+        max-width: 33%;
+    }   
+}
+
+@media only screen and (min-width: 1200px) {
+    .tableOfContents {
+        max-width: 25%;
+    }   
+}
