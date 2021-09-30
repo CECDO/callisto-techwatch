@@ -3,7 +3,11 @@
 /* HEADER */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin: 0;
-}   
+}
+
+body {
+    overflow-x: hidden;
+}
 
 .brand-name {
     display: flex;
@@ -78,7 +82,7 @@
     background-position: bottom;
     background-size: 100% 45%;
     background-repeat: no-repeat;
-  }
+}
 
 @media screen and (min-width: 530px) {
     .under-nav-title h1 {
@@ -193,25 +197,27 @@
 
 /* FOOTER */
 
-
 footer {
-    display: flex;
-    flex-direction: column;
     background-color: #6B40ED;
 }
 
-footer section {
+.footer-category {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-category section {
     color: white;
     text-align: center;
-    padding: 3rem;
+    padding: 2.6rem;
     padding-bottom: 1rem;
 }
 
-footer section h1 {
+.footer-category section h1 {
     font-size: 1.75rem;
 }
 
-footer section hr {
+.footer-category section hr {
     width: 100px;
     background-color: white;
     border: 1.5px solid white;
@@ -238,11 +244,71 @@ footer section hr {
 
 .footer-newsletters input{
     width: 275px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: .2rem .5rem;
 }
+
+/*footer-newsletters button{
+    margin-top: 0.6rem;
+    background-color: #8A7CE4;
+    color: white;
+    border: 2px solid #A89AFF;
+    border-radius: 10px;
+    padding: .15rem .6rem;
+    cursor: pointer;
+}*/
 
 .footer-newsletters button{
     margin-top: 0.6rem;
+    background-color: #8A7CE4;
+    color: white;
+    border: 2px solid #A89AFF;
+    border-radius: 10px;
+    padding: .15rem .6rem;
+    cursor: pointer;
+    transition: all 0.3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
 
+
+.footer-newsletters button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #A89AFF;
+    transition: all 0.3s;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.footer-newsletters button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8A7CE4;
+    border-radius: 10px;
+    z-index: -2;
+}
+
+.footer-newsletters button:hover {
+    color: #fff;
+}
+
+.footer-newsletters button:hover:before {
+    width: 100%;
+}
+
+button:focus, input:focus {
+    outline: none;
 }
 
 .footer-social .social-network {
@@ -270,18 +336,29 @@ footer section hr {
     margin-left: .5rem;
 }
 
+.copyright {
+    width: 100%;
+    font-size: .9rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: .8rem;
+}
+
 @media screen and (min-width: 670px) {
 
     .footer-social .social-network {
         display: flex;
         justify-content: center;
     }
+
+    .copyright {
+        font-size: 1rem;
+    }
 }
 
-
-
 @media screen and (min-width: 992px) {
-    footer {
+    .footer-category {
         flex-direction: row;
         justify-content: space-evenly;
     }
@@ -290,12 +367,16 @@ footer section hr {
         display: inline-block;
     }
 
-    footer section h1 {
+    .footer-category section h1 {
         font-size: 2.10rem;
     }
 
     .footer-techwatch h2, .footer-contact .infos-contact h2 {
         font-size: 1.5rem;
+    }
+
+    .footer-newsletters {
+        align-items: flex-end;
     }
 }
 
@@ -312,5 +393,8 @@ footer section hr {
     .footer-social .social-network img {
         width: 65px;
         margin: .8rem;
+    }
+    .footer-techwatch h2 {
+        margin-bottom: -.5rem;
     }
 }
