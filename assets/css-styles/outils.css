@@ -1,0 +1,65 @@
+/* MOBILE */ /* HEADER */
+.banner{
+    background-image: url("../../img/bg_accueil.jpg");
+        background-color: #cccccc;
+        height: 15rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;;
+}
+.article1{
+    margin: auto;
+}
+.article2{
+    margin: auto;
+}
+
+/* SECTION ARTICLE */
+.section-1{
+    width: 100%;
+    
+}
+.dimention-cards{
+    margin-bottom: 1rem;
+    margin: 1rem    ;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 800px) { 
+    /* HEADER */
+    .title-section{
+        position: absolute;
+        top: 50%;
+        text-align: center;
+    }
+    .banner{
+        background-image: url("../../img/bg_accueil.jpg");
+        background-color: #cccccc;
+        height: 25rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .section-1{
+        margin-top: 5rem;
+    }
+    /* SIZE CARD ARTICLE */
+    .dimention-cards{
+        width: 22rem;
+    }
+
+    /* ENCLOBE LIST ARTICLE */
+    .article1{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+    .article2{
+        width: 100%;
+        width: 100%;
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+}
