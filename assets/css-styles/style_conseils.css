@@ -12,12 +12,7 @@
     margin: 1rem 1rem;
 }
 
-.personal-container h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: bold;
-    margin: 0.75rem 0;
-}
+
 
 /* Section table of contents */
 
@@ -44,10 +39,11 @@
 
 /* content*/
 
-.content h2 {
+.content h2{
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 1.75rem;
+    margin-left: 0.25rem;
 }
 
 .content p {
@@ -66,6 +62,14 @@
     margin: 1rem 0;
 }
 
+/* Culture */
+
+img{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 
 
@@ -79,8 +83,45 @@
 }
 
 @media only screen and (min-width: 992px) {
+    .personal-container {
+        margin: 1rem 5rem;
+    }
+
+    
     
 }
 @media only screen and (min-width: 1200px) {
-      
+    .personal-container {
+        margin: 1rem 1rem;
+    }
+
+    .tableOfContents{
+        position: absolute;
+        margin-left: 2rem;
+
+       
+    }
+
+    .tableOfContents.scroll{
+        position: fixed;
+        top: 25%;
+   }
+
+    .content {
+        margin-left: 27.5rem;
+        margin-right: 7.5rem;
+    }
+
+    .content p {
+        width: 100%;
+    }
+
+    .content ul {
+        width: 100%;
+    }
+
+    img {
+        
+        width: 100%;
+    }
 }
