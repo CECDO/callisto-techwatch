@@ -44,11 +44,27 @@
 
 /* content*/
 
-.content{
-    display: block;
-    width: 100%;
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.75rem;
 }
 
+.content p {
+    text-align: justify;
+    display: flex;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.content ul {
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+}
+.content li { 
+    margin: 1rem 0;
+}
 
 
 
