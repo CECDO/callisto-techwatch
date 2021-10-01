@@ -9,7 +9,7 @@ body{
 .roboto{
     font-family: 'Roboto', sans-serif;
 }
-
+/* HEADER */
 .title-section{
     position: absolute;
     top: 50%;
@@ -29,4 +29,16 @@ body{
     position: relative;
     text-align: center;
     color: white;
+}
+
+/* BUTTON */
+
+.btn-violet{
+    background-color: #6B40ED;
+    border-color: #6B40ED
+}
+.btn-violet:hover{
+    background-color: rgb(177, 71, 219);
+    color: white;
+    border-color:  rgb(177, 71, 219);
 }

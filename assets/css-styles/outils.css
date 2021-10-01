@@ -35,27 +35,26 @@
     margin: 1rem    ;
 }
 
+.imgcard{
+    position: relative;
+    text-align: center;
+}
+
+.btn-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.imgcard span{
+    opacity: 0.70;
+}
+
+
 /* DESKTOP */
 @media only screen and (min-width: 800px) { 
     /* HEADER */
-    .title-section{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-    }
-    .banner{
-        background-image: url("../../img/bg_accueil.jpg");
-        background-color: #cccccc;
-        height: 25rem;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        position: relative;
-        text-align: center;
-        color: white;
-    }
     .section-1{
         margin-top: 5rem;
     }
@@ -79,15 +78,23 @@
         justify-content: space-evenly;
     }
     .imgcard{
-        height: 100%;
         position: relative;
         text-align: center;
     }
-    .btn-plus{
+    
+    .btn-card{
+        visibility: hidden;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
+    }
+    .imgcard span{
+        opacity: 0.70;
+    }
+
+    .imgcard:hover button{
+        visibility: visible;
     }
 }
