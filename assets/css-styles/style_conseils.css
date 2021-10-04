@@ -63,9 +63,9 @@
 
 /* Culture */
 
-img{
+.content img{
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
