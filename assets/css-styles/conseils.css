@@ -69,6 +69,11 @@
     margin: 0 auto;
 }
 
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 
@@ -96,15 +101,18 @@
 
     .tableOfContents{
         position: absolute;
-        margin-left: 2rem;
+        margin-left: 2rem; 
+    }
 
-       
+    .tableOfContents.scrolldown{
+        position: fixed;
+        bottom: 325px;
     }
 
     .tableOfContents.scroll{
         position: fixed;
         top: 15%;
-   }
+   } 
 
     .content {
         margin-left: 27.5rem;
