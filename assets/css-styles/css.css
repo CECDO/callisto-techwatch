@@ -35,8 +35,14 @@ body{
 
 .btn-violet{
     background-color: #6B40ED;
-    border-color: #6B40ED
+    border-color: #6B40ED;
+    color: #ffffff;
 }
+.btn-violet a {
+    text-decoration: none;
+    color: white;
+}
+
 .btn-violet:hover{
     background-color: rgb(177, 71, 219);
     color: white;

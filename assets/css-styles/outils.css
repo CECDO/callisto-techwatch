@@ -50,7 +50,10 @@
 .imgcard span{
     opacity: 0.70;
 }
-
+.nav-123{
+    margin: 0 auto; 
+    float: none;
+}
 
 /* DESKTOP */
 @media only screen and (min-width: 800px) { 
@@ -63,7 +66,7 @@
         width: 22rem;
     }
 
-    /* ENCLOBE LIST ARTICLE */
+    /* LIST ARTICLE */
     .article1{
         width: 100%;
         display: flex;
@@ -97,4 +100,5 @@
     .imgcard:hover button{
         visibility: visible;
     }
+
 }
