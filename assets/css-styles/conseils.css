@@ -110,12 +110,12 @@ iframe{
 
     .tableOfContents.scrolldown{
         position: fixed;
-        bottom: 325px;
+        bottom: 20rem;
     }
 
     .tableOfContents.scroll{
         position: fixed;
-        top: 15%;
+        top: 10rem ;
    } 
 
     .content {
