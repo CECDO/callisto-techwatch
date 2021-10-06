@@ -26,11 +26,11 @@ window.addEventListener('scroll', () => {
     let scrollPercentRounded = Math.round(scrollPercent * 100);
     /* console.log(scrollPercentRounded);
      */
-    if (scrollPercentRounded > 6 && scrollPercentRounded < 96) {
+    if (scrollPercentRounded > 6 && scrollPercentRounded < 80) {
         tableOfContent.classList.remove("scrolldown");
 
         tableOfContent.classList.add("scroll");
-    } else if (scrollPercentRounded > 96) {
+    } else if (scrollPercentRounded > 80) {
         tableOfContent.classList.remove("scroll");
         tableOfContent.classList.add("scrolldown");
     } else {

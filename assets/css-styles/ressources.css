@@ -10,6 +10,14 @@
     display: flex;
 }
 
+.tableOfContents li {
+    padding-right: 5rem;
+}
+
+.list-group {
+    margin: 0 auto;
+}
+
 .tableOfContentTitle {
     display: block;
     text-align: center;
@@ -69,12 +77,17 @@
 @media only screen and (min-width: 1200px) {
     .tableOfContents {
         position: absolute;
-        margin-left: 2rem;       
+        margin-left: 2rem; 
+    }
+
+    .tableOfContents.scrolldown {
+        position: fixed;
+        bottom: 22rem;
     }
 
     .tableOfContents.scroll {
         position: fixed;
-        top: 15%;
+        top: 26rem;
     }
 
     .content {
