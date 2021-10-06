@@ -68,6 +68,12 @@
     list-style-type: circle;
 }
 
+.content img {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Responsive design  */
 
 @media only screen and (min-width: 768px) {
@@ -100,6 +106,10 @@
     }
 
     .content ul {
+        width: 100%;
+    }
+
+    img {
         width: 100%;
     }
 }
