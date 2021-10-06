@@ -21,6 +21,11 @@ body {
     color: white;
 }
 
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
 .navbar {
     background-color: #6B40ED;
     height: 10%;
@@ -57,6 +62,7 @@ body {
 
 .under-nav-section img {
     width: 100%;
+    height: 30vw;
     min-height: 200px;
     padding: 0%;
 }
@@ -78,7 +84,7 @@ body {
 }
 
 .underline-06 {
-    background-image: linear-gradient(90deg, #d9d7e0, #ebe6fd);
+    background-image: linear-gradient(90deg, #eeecf3, #f7f5ff);
     background-position: bottom;
     background-size: 100% 45%;
     background-repeat: no-repeat;
@@ -209,12 +215,12 @@ footer {
 .footer-category section {
     color: white;
     text-align: center;
-    padding: 2.6rem;
-    padding-bottom: 1rem;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    padding-bottom: .2rem;
 }
 
 .footer-category section h1 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
 }
 
 .footer-category section hr {
@@ -232,7 +238,7 @@ footer {
 .footer-techwatch h2 {
     font-size: 1.2rem;
     padding: 0 4%;
-    margin-top: .3rem;
+    margin-top: 1.5rem;
 }
 
 .footer-newsletters {
@@ -248,16 +254,6 @@ footer {
     border-radius: 10px;
     padding: .2rem .5rem;
 }
-
-/*footer-newsletters button{
-    margin-top: 0.6rem;
-    background-color: #8A7CE4;
-    color: white;
-    border: 2px solid #A89AFF;
-    border-radius: 10px;
-    padding: .15rem .6rem;
-    cursor: pointer;
-}*/
 
 .footer-newsletters button{
     margin-top: 0.6rem;
@@ -316,7 +312,7 @@ button:focus, input:focus {
 }
 
 .footer-social .social-network img {
-    width: 60px;
+    width: 50px;
     margin: .8rem;
 }
 
@@ -342,7 +338,8 @@ button:focus, input:focus {
     color: white;
     font-weight: 600;
     text-align: center;
-    padding: .8rem;
+    padding-bottom: .8rem;
+    padding-top: 2rem;
 }
 
 @media screen and (min-width: 670px) {
@@ -354,6 +351,7 @@ button:focus, input:focus {
 
     .copyright {
         font-size: 1rem;
+        padding-top: 0;
     }
 }
 
@@ -368,11 +366,11 @@ button:focus, input:focus {
     }
 
     .footer-category section h1 {
-        font-size: 2.10rem;
+        font-size: 1.7rem;
     }
 
     .footer-techwatch h2, .footer-contact .infos-contact h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .footer-newsletters {
@@ -391,7 +389,7 @@ button:focus, input:focus {
     }
 
     .footer-social .social-network img {
-        width: 65px;
+        width: 60px;
         margin: .8rem;
     }
     .footer-techwatch h2 {
