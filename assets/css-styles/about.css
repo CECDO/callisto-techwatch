@@ -29,21 +29,39 @@ body{
     color: white;
 }
 
-p{
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+.section-1{
+    margin-top: 5rem;
+}
+.dimention-cards{
+    width: 22rem;
 }
 
-@media only screen and (min-width: 768px) {
-    
+
+.team{
+    margin: 0 auto; 
 }
 
-@media only screen and (min-width: 992px) {
-    
+
+@media only screen and (min-width: 800px) { 
+    .section-1{
+        margin-top: 5rem;
+    }
+    .dimention-cards{
+        width: 22rem;
+    }
+
+    .imgcard{
+        width: 100%;
+    }
+
+    .team{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
 }
-@media only screen and (min-width: 1200px) {
-      
-}
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
