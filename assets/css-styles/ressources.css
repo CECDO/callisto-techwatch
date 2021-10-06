@@ -1,0 +1,92 @@
+/* General container & first title */
+
+.personal-container {
+    margin: 1rem;
+}
+
+/* Section table of contents */
+
+.tableOfContents {
+    display: flex;
+}
+
+.tableOfContentTitle {
+    display: block;
+    text-align: center;
+    margin-bottom: 0rem;
+    font-weight: bold;  
+}
+
+.list-group-item {
+    padding: 1rem;
+}
+
+.item2 {
+    font-style: italic;
+}
+
+.list-group-item a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #000;
+}
+
+/* content*/
+
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.75rem;
+}
+
+.content h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1.75rem;
+    margin-left: 1rem;
+}
+
+.content p {
+    text-align: justify;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.content ul {
+    text-align: justify;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.content li {
+    list-style-type: circle;
+}
+
+/* Responsive design  */
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .tableOfContents {
+        position: absolute;
+        margin-left: 2rem;       
+    }
+
+    .tableOfContents.scroll {
+        position: fixed;
+        top: 15%;
+    }
+
+    .content {
+        margin-left: 27.5rem;
+        margin-right: 7.5rem;
+    }
+
+    .content p {
+        width: 100%;
+    }
+
+    .content ul {
+        width: 100%;
+    }
+}
