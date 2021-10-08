@@ -1,0 +1,135 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+/* General container & first title */
+
+.personal-container {
+	margin: 1rem 1rem;
+}
+
+/* Section table of contents */
+
+.list-group {
+	margin: 0 auto;
+}
+
+.list-group-item {
+	padding: .25rem 1rem;
+}
+
+.tableOfContents {
+	display: flex;
+}
+
+.tableOfContentTitle {
+	display: block;
+	text-align: center;
+	margin-bottom: 0rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.list-group-item a {
+	font-size: 0.75rem;
+	text-decoration: none;
+	color: #000;
+}
+
+/* content*/
+
+.content h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 4rem;
+	margin-left: 0.25rem;
+}
+
+.content p {
+	text-align: justify;
+	display: flex;
+	width: 90%;
+	margin: 1rem auto;
+}
+
+.content ul {
+	text-align: justify;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.content li {
+	margin: 1rem 0;
+}
+
+/* Culture */
+
+.content img {
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.youtube{
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	height: 315px;
+}
+
+.podcast {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	height: 232px;
+}
+
+
+/* Responsive designe  */
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {
+	.personal-container {
+		margin: 1rem 5rem;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.personal-container {
+		margin: 1rem 1rem;
+	}
+
+	.tableOfContents {
+		position: absolute;
+		margin-left: 2rem;
+	}
+
+	.tableOfContents.scrolldown {
+		position: fixed;
+		bottom: 20rem;
+	}
+
+	.tableOfContents.scroll {
+		position: fixed;
+		top: 10rem;
+	}
+
+	.content {
+		margin-left: 27.5rem;
+		margin-right: 7.5rem;
+	}
+
+	.content p {
+		width: 100%;
+	}
+
+	.content ul {
+		width: 100%;
+	}
+
+	img {
+		width: 100%;
+	}
+}

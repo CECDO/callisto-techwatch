@@ -1,0 +1,63 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.banner{
+    background-image: url("../../img/bg_accueil.jpg");
+    background-color: #cccccc;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.section-1{
+    margin-top: 1rem;
+}
+.dimention-cards{
+    width: 22rem;
+}
+
+
+.team{
+    margin: 0 auto; 
+}
+
+
+@media only screen and (min-width: 1200px) { 
+    .section-1{
+        margin-top: 5rem;
+    }
+    .dimention-cards{
+        width: 22rem;
+        margin: 1rem;
+    }
+
+    .imgcard{
+        width: 100%;
+    }
+
+    .team{
+        width: 70%;
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,115 @@
+/* General container & first title */
+
+.personal-container {
+    margin: 1rem;
+}
+
+/* Section table of contents */
+
+.tableOfContents {
+    display: flex;
+}
+
+.tableOfContents li {
+    padding-right: 5rem;
+}
+
+.list-group {
+    margin: 0 auto;
+}
+
+.tableOfContentTitle {
+    display: block;
+    text-align: center;
+    margin-bottom: 0rem;
+    font-weight: bold;  
+}
+
+.list-group-item {
+    padding: 1rem;
+}
+
+.item2 {
+    font-style: italic;
+}
+
+.list-group-item a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #000;
+}
+
+/* content*/
+
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.75rem;
+}
+
+.content h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1.75rem;
+    margin-left: 1rem;
+}
+
+.content p {
+    text-align: justify;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.content ul {
+    text-align: justify;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.content li {
+    list-style-type: circle;
+}
+
+.content img {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Responsive design  */
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .tableOfContents {
+        position: absolute;
+        margin-left: 2rem; 
+    }
+
+    .tableOfContents.scrolldown {
+        position: fixed;
+        bottom: 22rem;
+    }
+
+    .tableOfContents.scroll {
+        position: fixed;
+        top: 26rem;
+    }
+
+    .content {
+        margin-left: 27.5rem;
+        margin-right: 7.5rem;
+    }
+
+    .content p {
+        width: 100%;
+    }
+
+    .content ul {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}

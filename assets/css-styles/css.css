@@ -1,0 +1,51 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+    
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
+.title-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 2.75rem;
+}
+.banner{
+    background-image: url("../../img/bg_accueil.jpg");
+    background-color: #cccccc;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* BUTTON */
+
+.btn-violet{
+    background-color: #6B40ED;
+    border-color: #6B40ED;
+    color: #ffffff;
+}
+.btn-violet a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-violet:hover{
+    background-color: rgb(177, 71, 219);
+    color: white;
+    border-color:  rgb(177, 71, 219);
+}
