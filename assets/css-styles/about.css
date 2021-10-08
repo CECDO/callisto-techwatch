@@ -1,5 +1,4 @@
 body{
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -62,7 +61,3 @@ body{
         justify-content: space-evenly;
     }
 }
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
